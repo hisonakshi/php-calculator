@@ -112,9 +112,9 @@ body{
   color:antiquewhite;
   font-size:25px;
   text-align:center;
-  height:1px;
-  width:150%;
-  margin:0px 50px 40px 0px;
+  margin:20px 0;      /* space above and below */
+  width:100%;         /* keep inside container */
+  word-wrap: break-word;
 }
 
 @media (max-width: 768px) {
